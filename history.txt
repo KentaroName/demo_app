@@ -1,0 +1,32 @@
+    1  rvmsudo rvm install 2.0.0-p648
+    2  rvm use --create 2.0.0-p648@samurai --default
+    3  rvm gemset install rails -v 4.0.5
+    4  rvmsudo rvm use --create 2.0.0-p648@samurai --default
+    5  rvm use --create 2.0.0-p648@samurai --default
+    6  rvm gemset install rails -v 4.0.5
+    7  sudo rvm gemset install rails -v 4.0.5
+    8  rvmsudo rvm gemset install rails -v 4.0.5
+    9  rvm gemset install rails -v 4.0.5
+   10  rails new demo_app
+   11  gem install bundler
+   12  cd demo_app
+   13  echo "rvm 2.0.0-p648@samurai" > .rvmrc
+   14  rvm rvmrc to .ruby-version
+   15  rvmsudo rvmrc to .ruby-version
+   16  bundle update
+   17  bundle install
+   18  gem install bundler
+   19  sudo gem install bundler
+   20  bundle install
+   21  rvmsudo rvm install 2.0.0-p648
+   22  rvm use --create 2.0.0-p648@samurai --default
+   23  rvm gemset install rails -v 4.0.5
+   24  sudo rvm gemset install rails -v 4.0.5
+   25  rvmsudo rvm gemset install rails -v 4.0.5
+   26  rvm gemset install rails -v 4.0.5
+   27  rails new demo_app
+   28  bundle install
+   29  bundle update
+   30  bundle install
+   31  rails server -b $IP -p $PORT
+   32  history >history.txt
