@@ -1,4 +1,10 @@
 DemoApp::Application.routes.draw do
+  resources :sports
+
+  resources :taxis
+
+  resources :names
+
   resources :amus
 
   resources :tasks
